@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# Python and FastAPI
+*.log
+*.pid
+
+# Streamlit
+.streamlit/
+
+# Hugging Face cache and models
+*.bin
+*.json
+*.h5
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/
+hub/
+
+# Torch and deep learning
+*.pth
+*.pb
+*.dylib
+*.tflite
+*.npz
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# pip / install logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+.pytest_cache/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# JSON/patch/temp
+*.patch
+*.tmp
+*.bak
+
+# FastAPI/uvicorn-related runtime files
+*.db
+*.sqlite3
+
+# LLM / Langchain
+logs/
+langchain.db
+
+# Ignore large language model folders if any
+models/
+outputs/
+experiments/
+runs/
+artifacts/
+
+# Prevent pushing any large files over 50MB
+*.tar.gz
+*.zip
+*.gz
+*.xz
+*.7z
+*.rar
+*.exe
+*.dll
+*.so
