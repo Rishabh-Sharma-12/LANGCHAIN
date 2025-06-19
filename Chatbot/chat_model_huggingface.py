@@ -7,7 +7,6 @@
 from huggingface_hub import HfApi
 
 # DO NOT use this token - it's compromised
-test_token = "REMOVED_TOKEN"
 
 try:
     api = HfApi()

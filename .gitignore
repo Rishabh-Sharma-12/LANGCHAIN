@@ -6,6 +6,8 @@ __pycache__/
 # Virtual environment folders
 venv/
 .venv/
+LANG_venv/
+.LANG_venv/
 .env/
 ENV/
 env.bak/
@@ -96,3 +98,4 @@ artifacts/
 *.exe
 *.dll
 *.so
+
