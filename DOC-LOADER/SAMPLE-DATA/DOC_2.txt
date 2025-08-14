@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-groq
+python-dotenv
+langchain-openai
+openai
+langchain_groq
+fitz==0.0.3
+pymupdf==1.23.21
+langchain==0.1.13
+sentence-transformers==2.7.0
+qdrant-client==1.8.1
+python-dotenv==1.0.1
+numpy==1.26.4
