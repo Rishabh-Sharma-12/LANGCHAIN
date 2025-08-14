@@ -58,12 +58,12 @@ agent = initialize_agent(
 )
 
 # result = agent.invoke("""
-# Send an email to ssrishabh12@gmail.com with subject 'LangChain Test' and body 'This is a test sent via LangChain Gmail tool.'
+# Send an email to XXXXXXXX.com with subject 'LangChain Test' and body 'This is a test sent via LangChain Gmail tool.'
 # """)
 # print(result)
 
 result = gmail_tool.invoke({
-    "receiver_email": "kunalgour20902003@gmail.com",
+    "receiver_email": "---mail-----",
     "subject": "LangChain Test",
     "body": "Hello sir rimsaab this side."
 })
